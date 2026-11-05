@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 470" role="img" aria-label="Tony's Tech">
+  <defs>
+    <linearGradient id="or" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"    stop-color="#8a6a1f"/>
+      <stop offset="0.30" stop-color="#c9962b"/>
+      <stop offset="0.50" stop-color="#f6e27a"/>
+      <stop offset="0.75" stop-color="#e3c25b"/>
+      <stop offset="1"    stop-color="#a67c1a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ombre portée grise -->
+  <g fill="#9a9b9c" opacity="0.5" transform="translate(10,12)">
+    <text x="15" y="415" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="430">T</text>
+    <text x="300" y="245" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="125">NY'S</text>
+    <text x="646" y="415" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="125">ECH</text>
+    <circle cx="240" cy="195" r="55"/>
+  </g>
+
+  <!-- lettrage -->
+  <g fill="url(#or)" stroke="#6f5210" stroke-width="3" stroke-linejoin="round">
+    <text x="15" y="415" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="430">T</text>
+    <text x="300" y="245" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="125">NY'S</text>
+    <text x="646" y="415" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="125">ECH</text>
+  </g>
+
+  <!-- globe : le O de TONY'S -->
+  <g transform="translate(240,195)">
+    <circle r="55" fill="url(#or)" stroke="#6f5210" stroke-width="3"/>
+    <g fill="none" stroke="#fdf3c4" stroke-width="3">
+      <ellipse rx="24" ry="55"/>
+      <line x1="-55" y1="0" x2="55" y2="0"/>
+      <path d="M -49 -24 A 82 82 0 0 1 49 -24"/>
+      <path d="M -49 24 A 82 82 0 0 0 49 24"/>
+    </g>
+  </g>
+</svg>
